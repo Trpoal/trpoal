@@ -6,6 +6,7 @@ int main() {
     printf("Enter R for translation from radians to degrees\n");
     printf("Enter D for translation from degrees to radians\n");
     scanf("%f%c", &s, &k);
+
     if (k == 'D')
     {
         s = (s*3.14) / 180;

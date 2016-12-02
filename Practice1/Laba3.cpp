@@ -10,8 +10,10 @@ void main() {
     gets_s(string);
     len = (len - strlen(string))/2;
     system("cls");
+
     for (int i = 0 ; i <= len; i++)
         printf_s(" ");
+
     printf_s("%s", string);
     _getch();
 }

@@ -50,6 +50,9 @@ int main()
 
     }
 
+    printf("Max lenght=%d\n", glob);
+    printf("Max word\n");
+
     for (int i = (pos - glob+1); i <= pos; i++)
         printf("%c", str[i]);
 
